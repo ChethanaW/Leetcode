@@ -1,9 +1,9 @@
 class Solution:
     def reverseStr(self, s: str, k: int) -> str:
-    # example solution
+    # inspired from example solution
         a = list(s)
         for i in range(0, len(a), 2*k):
-            a[i:i+k] = reversed(a[i:i+k])
+            a[i:i+k] = a[i:i+k][::-1]
         return "".join(a)
     
     # my code breaks at once cases, passes all given and basic cases

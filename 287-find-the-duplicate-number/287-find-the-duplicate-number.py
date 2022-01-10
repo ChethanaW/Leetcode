@@ -10,7 +10,7 @@ class Solution:
 #             count = count + 1
         
     
-    #much faster since worst case is run time 0(n) times
+    
         dictionary = {}
         
         for e in nums:
